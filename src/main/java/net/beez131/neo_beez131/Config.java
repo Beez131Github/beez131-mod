@@ -1,4 +1,4 @@
-package net.beez131.neo_beez;
+package net.beez131.neo_beez131;
 
 import java.util.List;
 import java.util.Set;
