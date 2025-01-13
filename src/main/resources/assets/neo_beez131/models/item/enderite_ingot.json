@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "neo_beez131:item/enderite_ingot"
+  "model": {
+    "type": "minecraft:model",
+    "model": "neo_beez131:item/enderite_ingot"
   }
 }
