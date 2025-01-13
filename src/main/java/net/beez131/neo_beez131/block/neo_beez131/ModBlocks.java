@@ -2,6 +2,8 @@ package net.beez131.neo_beez131.block.neo_beez131;
 
 import net.beez131.neo_beez131.Neo_Beez131;
 import net.beez131.neo_beez131.item.neo_beez131.ModItems;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -26,7 +28,7 @@ public class ModBlocks {
     }
 
     private static <T extends Block> void registerBlockItem(String name, DeferredBlock<T> block) {
-        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().setId(ResourceKey.create(Registries.ITEM, ))));
     }
 
     public static void register(IEventBus eventBus) {
