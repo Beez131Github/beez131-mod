@@ -1,6 +1,7 @@
 package net.beez131.neo_beez131;
 
 import net.beez131.neo_beez131.block.neo_beez131.ModBlocks;
+import net.beez131.neo_beez131.item.neo_beez131.ModCreativeModeTabs;
 import net.beez131.neo_beez131.item.neo_beez131.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -42,6 +43,8 @@ public class Neo_Beez131
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
