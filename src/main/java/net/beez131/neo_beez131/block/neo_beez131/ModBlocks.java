@@ -20,7 +20,7 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Neo_Beez131.MOD_ID);
 
     public static final DeferredBlock<Block> ENDERITE_BLOCK = registerBlock("enderite_block", () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(20f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK).setId(ResourceKey.create(Registries.BLOCK, rl("enderite_block")))),
+                    .strength(50f).explosionResistance(1200f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK).setId(ResourceKey.create(Registries.BLOCK, rl("enderite_block")))),
             new Item.Properties().fireResistant()); // Add fire-resistant properties here
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block, Item.Properties itemProperties) {
