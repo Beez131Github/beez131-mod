@@ -20,7 +20,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.neo_beez131.neo_beez131_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                       output.accept(ModItems.ENDERITE_INGOT);
-                        output.accept(ModBlocks.ENDERITE_BLOCK);
+                      output.accept(ModBlocks.ENDERITE_BLOCK);
+                      output.accept(ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE);
                     })
 
 
