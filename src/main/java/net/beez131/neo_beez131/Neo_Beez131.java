@@ -69,6 +69,12 @@ public class Neo_Beez131
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.ENDERITE_BLOCK);
         }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.ENDER_APPLE);
+        }
     }
 
 

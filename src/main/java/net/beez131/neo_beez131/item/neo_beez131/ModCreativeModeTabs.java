@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.ENDERITE_INGOT);
                       output.accept(ModBlocks.ENDERITE_BLOCK);
                       output.accept(ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE);
+                      output.accept(ModItems.ENDER_APPLE);
                     })
 
 
