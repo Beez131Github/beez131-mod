@@ -1,7 +1,5 @@
-package net.beez131.neo_beez131.item;
+package net.beez131.neo_beez131.item.neo_beez131;
 
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 
 public class ModFoodProperties {

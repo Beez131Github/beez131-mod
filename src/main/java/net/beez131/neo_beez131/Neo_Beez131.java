@@ -75,6 +75,13 @@ public class Neo_Beez131
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.ENDER_APPLE);
         }
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.ENDERITE_SWORD);
+            event.accept(ModItems.ENDERITE_AXE);
+            event.accept(ModItems.ENDERITE_PICKAXE);
+            event.accept(ModItems.ENDERITE_SHOVEL);
+            event.accept(ModItems.ENDERITE_HOE);
+        }
     }
 
 

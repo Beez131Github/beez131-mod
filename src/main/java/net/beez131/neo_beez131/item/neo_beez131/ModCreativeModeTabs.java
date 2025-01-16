@@ -21,6 +21,11 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                       output.accept(ModItems.ENDERITE_INGOT);
                       output.accept(ModBlocks.ENDERITE_BLOCK);
+                        output.accept(ModItems.ENDERITE_SWORD);
+                        output.accept(ModItems.ENDERITE_AXE);
+                        output.accept(ModItems.ENDERITE_PICKAXE);
+                        output.accept(ModItems.ENDERITE_SHOVEL);
+                        output.accept(ModItems.ENDERITE_HOE);
                       output.accept(ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE);
                       output.accept(ModItems.ENDER_APPLE);
                     })

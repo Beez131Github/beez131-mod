@@ -1,5 +1,10 @@
 {
   "item.neo_beez131.enderite_ingot": "Enderite Ingot",
+  "item.neo_beez131.enderite_sword": "Enderite Sword",
+  "item.neo_beez131.enderite_axe": "Enderite Axe",
+  "item.neo_beez131.enderite_pickaxe": "Enderite Pickaxe",
+  "item.neo_beez131.enderite_shovel": "Enderite Shovel",
+  "item.neo_beez131.enderite_hoe": "Enderite Hoe",
   "item.neo_beez131.enderite_block": "Enderite Block",
   "item.neo_beez131.ender_apple": "Ender Apple",
   "item.neo_beez131.enderite_upgrade_smithing_template": "Enderite Upgrade",
